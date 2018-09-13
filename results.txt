@@ -1,0 +1,29 @@
+First DeMorgan's Law
+A B | AB | ~(AB) 
+0 0 | 0  | 1  
+0 1 | 0  | 1  
+1 0 | 0  | 1  
+1 1 | 1  | 0  
+
+A B | ~A ~B | ~A+~B 
+0 0 |  1 1  |  1  
+0 1 |  1 0  |  1  
+1 0 |  0 1  |  1  
+1 1 |  0 0  |  0  
+The truth table outputs are the same, so the expressions ~(AB) and ~A+~B are equivalent.
+
+
+Second DeMorgan's Law
+A B | A+B | ~(A+B) 
+0 0 |  0  |  1  
+0 1 |  1  |  0  
+1 0 |  1  |  0  
+1 1 |  1  |  0  
+
+A B | ~A ~B | ~A~B 
+0 0 |  1 1  |  1  
+0 1 |  1 0  |  0  
+1 0 |  0 1  |  0  
+1 1 |  0 0  |  0  
+The truth table outputs are the same, so the expressions ~(A+B) and ~A~B are equivalent.
+
